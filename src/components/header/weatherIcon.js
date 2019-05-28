@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 
-import MainPage from './mainPage';
-
-export default class App extends Component {
+export default class Weather extends Component {
     render() {
         return (
             <div>
-                <MainPage />
+                Weather Icon
             </div>
         )
     }
