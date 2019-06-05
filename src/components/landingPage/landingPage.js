@@ -17,13 +17,12 @@ export default class LandingPage extends Component {
 
           <h1 className="header-text">Test Landing Page Text</h1>
           <span id='down'> &#8595;</span>
-          {/* <div className="fullscreen-video-wrap"> */}
+  
           {/* TO DO
-        fix video bug */}
-          {/* <video src='Cow.MP4' autoPlay={true} loop={true} muted></video> */}
+        fix video bug 
+        add anchor tags for hamburger menu items
+        */}
 
-          {/* <img src="http://via.placeholder.com/900x500" /> */}
-          {/* </div> */}
 
         </div>
 

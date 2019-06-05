@@ -1,0 +1,35 @@
+.featured-experiences-header {
+  text-transform: uppercase;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-experiences__wrapper {
+  width: 100vw;
+  margin: auto;
+}
+
+.horizontal-scroll {
+  background-color: #a9a9a9;
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px 30px;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  border: 1px solid black;
+  display: inline-block;
+  width: 60vw;
+  height: 75vh;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 50px 30px;
+  font-size: 20px;
+  margin: 0 10px;
+}
