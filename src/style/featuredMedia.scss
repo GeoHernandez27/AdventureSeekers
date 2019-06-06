@@ -1,0 +1,151 @@
+.featured-media__container {
+  display: grid;
+  grid-row: featured-med-s/featured-med-e;
+  padding: 100px;
+  padding-top: 0px;
+}
+
+.media-header {
+  text-transform: uppercase;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.featured-media__wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: [main-s] 1fr[main-e second-s] 0.5fr [second-e third-s] 0.5fr [third-e];
+  grid-row-gap: 15px;
+  grid-column-gap: 10px;
+}
+
+.featured-media__main,
+.featured-media__small {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  h3 {
+    bottom: 20%;
+    color: white;
+
+    position: absolute;
+  }
+
+  h2 {
+    color: yellow;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+  }
+}
+
+.featured-media__main {
+  grid-row: 1/-1;
+  grid-column: main-s/main-e;
+
+  height: 600px;
+
+  .media-main_image {
+    height: 600px;
+    width: 600px;
+    transform: rotate(90deg);
+
+    border-radius: 10px;
+  }
+}
+
+.featured-media__small {
+  height: 290px;
+  .media-small_image {
+    height: 292px;
+    width: 300px;
+    border-radius: 10px;
+  }
+}
+
+.featured-media__main:hover .overlay,
+.featured-media__small:hover .overlay {
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  text-align: center;
+  border-radius: 10px;
+
+  transition: 0.5s ease;
+  z-index: 2;
+
+  .content-text-main,
+  .content-text-small {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    top: 50%;
+    padding: 10px;
+  }
+
+  .content-text-main {
+    font-size: 2.5rem;
+  }
+  .content-text-small {
+    font-size: 1.5rem;
+  }
+}
+
+.visitButton {
+  position: relative;
+  transform: translateY(340%);
+  background-color: yellow;
+  color: gray;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+
+  transition: 0.3s all ease-in-out;
+}
+
+.visitButton:hover,
+.visitButton:focus {
+  background-color: gray;
+  color: black;
+  outline: none;
+  border: 0;
+}
+
+
+.visitButton-large {
+    position: relative;
+    transform: translateY(800%);
+    background-color: yellow;
+    color: gray;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+  
+    transition: 0.3s all ease-in-out;
+}
+
+
+
+.visitButton-large:hover,
+.visitButton-large:focus {
+  background-color: gray;
+  color: black;
+  outline: none;
+  border: 0;
+}
