@@ -1,7 +1,7 @@
 .main-page__container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows:[landing-s] 100vh [landing-e featured-ex-s] 1fr[featured-ex-e local-s] 1fr[local-e featured-med-s] 1fr [featured-med-e];
+    grid-template-rows:[landing-s] 100vh [landing-e featured-ex-s] 100vh[featured-ex-e local-s] 1fr[local-e featured-med-s] 1fr [featured-med-e];
     
 
     

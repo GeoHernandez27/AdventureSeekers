@@ -4,21 +4,116 @@ export default class Experiences extends Component {
   render() {
     return (
       <div>
-     
         <div className="featured-experiences__wrapper">
-        <h1 className="featured-experiences-header">Featured Experiences</h1>
+          <h1 className="featured-experiences-header">Featured Experiences</h1>
           {/* TO DO */}
           {/* Build out featured experiences */}
 
           <section className="horizontal-scroll">
-            <div class="card">Experience 1</div>
-            <div class="card">Experience 2</div>
-            <div class="card">Experience 3</div>
-            <div class="card">Experience 4</div>
-            <div class="card">Experience 5</div>
-            <div class="card">Experience 6</div>
-            <div class="card">Experience 7</div>
-            <div class="card">Experience 8</div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 1</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 2</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 3</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 4</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 5</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 6</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 7</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
+            <div className="card">
+              
+              <div className="card-content">
+                <h2>Experience 8</h2>
+                <img
+                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
+                <div className='card-content__description'>
+                    <h3>Test Activity</h3>    
+                    <h4>Location,XX</h4>
+                 </div>
+                 <button className='discoverButton'>Discover</button>
+              </div>
+            </div>
           </section>
         </div>
       </div>
