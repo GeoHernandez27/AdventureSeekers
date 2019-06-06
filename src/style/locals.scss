@@ -1,0 +1,32 @@
+.local-section {
+    display: grid;
+    text-transform: uppercase;
+    padding: 40px 20px;
+    text-align: center;
+    grid-row: local-s/local-e;
+}
+
+.local-user-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.user-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    padding: 50px;
+
+    .user-text__wrapper {
+        display: flex;
+        
+        align-items: center;
+    }
+}
+
+.user-image img {
+    height: 200px;
+    width: 200px;
+}

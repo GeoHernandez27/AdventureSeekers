@@ -7,7 +7,7 @@ export default class Experiences extends Component {
         <div className="featured-experiences__wrapper">
           <h1 className="featured-experiences-header">Featured Experiences</h1>
           {/* TO DO */}
-          {/* Build out featured experiences */}
+          {/* Build out featured experiences full section*/}
 
           <section className="horizontal-scroll">
             <div className="card">
