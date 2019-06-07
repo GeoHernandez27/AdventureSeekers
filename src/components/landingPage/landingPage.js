@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import HamburgerMenu from "../header/menu";
+// import HamburgerMenu from "../header/menu";
 
 
 
@@ -12,7 +12,7 @@ export default class LandingPage extends Component {
       <div className="landing__container">
         <img className="main-logo" src="http://via.placeholder.com/150x150" />
 
-        <HamburgerMenu className='hamburger-menu__wrapper'/>
+        
         <div className="header-wrapper">
 
           <h1 className="header-text">Test Landing Page Text</h1>

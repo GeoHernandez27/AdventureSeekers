@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from 'react-router-dom';
 
 export default class Experiences extends Component {
   render() {
@@ -20,7 +21,8 @@ export default class Experiences extends Component {
                     <h3>Test Activity</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 {/* <button className='discoverButton' component={ NavLink } to={'/testOne'}>Discover</button> */}
+                 <NavLink className='discoverButton' to={'/testOne'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">

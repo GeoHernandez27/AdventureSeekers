@@ -1,0 +1,108 @@
+.experiencePage-wrapper {
+  display: grid;
+  grid-template-rows: [banner-s] 600px [banner-e content-s] 1fr [content-e guide-s] 1fr [guide-e];
+  //   grid-row-gap: 100px;
+}
+
+//BANNER STYLES
+.header-banner-wrapper {
+  grid-row: banner-s/banner-e;
+
+  .header-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+
+    &__title {
+      position: absolute;
+      // top: 8px;
+      left: 16px;
+      color: white;
+    }
+
+    &__image {
+      height: 105vh;
+      width: 100vw;
+    }
+  }
+}
+
+//MAIN CONTENT STYLES
+
+.experiencePage-content__wrapper {
+  grid-row: content-s/content-e;
+
+  .article-section {
+    display: grid;
+    grid-template-columns: [article-s] 1fr [ pictures-s] 1fr [article-e pictures-e];
+
+    padding: 50px 100px 50px 100px;
+
+    .article-section__content {
+      // grid-column: articles-s/articles-e;
+      font-size: 1.5rem;
+
+      h2 {
+        font-size: 3em;
+        padding-bottom: 50px;
+      }
+
+      .highlight {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 50%,
+          #ffd0ae 50%
+        );
+      }
+    }
+    .images-wrapper {
+      grid-column: pictures-s/pictures-e;
+      padding: 20px;
+
+      .images-container {
+        display: grid;
+
+        grid-template-columns: [left-s] 300px [left-e] 10px [right-s] 300px [right-e];
+        grid-template-rows: [top-s] 300px [top-e] 10px [ end-s] 300px [end-e];
+      }
+
+      .image-small__one {
+        grid-row: top-s/end-e;
+      }
+      .image-small__two {
+        grid-row: end-s/end-e;
+      }
+
+      .image-small__one,
+      .image-small__two {
+        grid-column: left-s/left-e;
+        height: 300px;
+        width: 300px;
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+      .image-large {
+        transform: rotate(90deg);
+        grid-column: right-s/right-e;
+        grid-row: top-s/end-e;
+
+        height: 300px;
+        width: 610px;
+
+        justify-self: center;
+        align-self: center;
+
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
