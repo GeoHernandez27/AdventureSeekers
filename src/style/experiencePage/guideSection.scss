@@ -6,6 +6,7 @@
     padding: 40px 20px;
     text-align: center;
     grid-row: guide-s/guide-e;
+    background-color: rgb(238, 238, 238);
   }
   
   .guide-section-grid {
@@ -19,7 +20,7 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    padding: 75px;
+    padding: 50px;
   
     .guide-content {
       display: flex;
@@ -29,8 +30,8 @@
   }
   
   .guide-image img {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
   }
   
   

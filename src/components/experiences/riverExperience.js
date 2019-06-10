@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class experienceTestOne extends Component {
+export default class experienceRiver extends Component {
   render() {
     return (
       <div className="experiencePage-wrapper">
@@ -8,9 +8,9 @@ export default class experienceTestOne extends Component {
           <div className="header-background">
             <img
               className="header-background__image"
-              src={require("../../static/assets/images/featuredExperience/heroBanner/heroBannerTest.jpg")}
+              src={require("../../../static/assets/images/featuredExperience/heroBanner/heroBannerTest.jpg")}
             />
-            <h1 className="header-background__title">Header Title</h1>
+            <h1 className="header-background__title">river</h1>
           </div>
         </div>
         <div className="experiencePage-content__wrapper">
@@ -38,30 +38,32 @@ export default class experienceTestOne extends Component {
               <div className="images-container">
                 <div className="image-small__one">
                   <img
-                    src={require("../../static/assets/images/featuredExperience/gridImages/small1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/gridImages/small1.jpg")}
                   />
                 </div>
                 <div className="image-small__two">
                   {" "}
                   <img
-                    src={require("../../static/assets/images/featuredExperience/gridImages/small2.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/gridImages/small2.jpg")}
                   />
                 </div>
                 <div className="image-large">
                   <img
-                    src={require("../../static/assets/images/featuredExperience/gridImages/verticalTest.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/gridImages/verticalTest.jpg")}
                   />
                 </div>
               </div>
             </div>
           </div>
           <div className="guide-section-wrapper">
-            <h2>What our guides <span className="highlight">think</span></h2>
+            <h2>
+              What our guides <span className="highlight">think</span>
+            </h2>
             <div className="guide-section-grid">
               <div className="guides guide-one">
                 <div className="guide-image">
                   <img
-                    src={require("../../static/assets/images/locals/local1.png")}
+                    src={require("../../../static/assets/images/locals/local1.png")}
                   />
                 </div>
                 <div className=" guide-content">
@@ -76,7 +78,7 @@ export default class experienceTestOne extends Component {
               <div className="guides guide-two">
                 <div className="guide-image">
                   <img
-                    src={require("../../static/assets/images/locals/local1.png")}
+                    src={require("../../../static/assets/images/locals/local1.png")}
                   />
                 </div>
                 <div className="guide-content">
@@ -91,12 +93,15 @@ export default class experienceTestOne extends Component {
             </div>
           </div>
           <div className="local-interests__wrapper">
-            <h3><span className="highlight">While you're there,</span> make sure to check out...</h3>
+            <h3>
+              <span className="highlight">While you're there,</span> make sure
+              to check out...
+            </h3>
             <div className="local-interests-container">
               <div className="local-interests__cards">
                 <div className="local-interests__section local-interest__one">
                   <img
-                    src={require("../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
                   />
                   <div className="local-interests__content">
                     <h4>interests header</h4>
@@ -114,7 +119,7 @@ export default class experienceTestOne extends Component {
                 </div>
                 <div className="local-interests__section local-interest__two">
                   <img
-                    src={require("../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
                   />
                   <div className="local-interests__content">
                     <h4>interests header</h4>
@@ -130,7 +135,6 @@ export default class experienceTestOne extends Component {
                     </p>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>

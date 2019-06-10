@@ -18,11 +18,11 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Rock Climbing</h3>    
                     <h4>Location,XX</h4>
                  </div>
                  {/* <button className='discoverButton' component={ NavLink } to={'/testOne'}>Discover</button> */}
-                 <NavLink className='discoverButton' to={'/testOne'}>Discover</NavLink>
+                 <NavLink className='discoverButton' to={'/rockClimb'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -32,10 +32,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Hiking</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/hike'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -45,10 +45,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Mountain Biking</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/mountainBike'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -58,10 +58,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Mountaineering</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/mountaineering'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -71,10 +71,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Paddle</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/paddle'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -84,10 +84,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>River</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/river'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -97,10 +97,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Road Bike</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/roadBike'}>Discover</NavLink>
               </div>
             </div>
             <div className="card">
@@ -110,10 +110,10 @@ export default class Experiences extends Component {
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Test Activity</h3>    
+                    <h3>Skiing</h3>    
                     <h4>Location,XX</h4>
                  </div>
-                 <button className='discoverButton'>Discover</button>
+                 <NavLink className='discoverButton' to={'/ski'}>Discover</NavLink>
               </div>
             </div>
           </section>
