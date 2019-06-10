@@ -31,7 +31,7 @@ export default class experienceMountaineering extends Component {
                 eget. Sed in tellus nisi. Suspendisse blandit risus sem, sed
                 auctor elit mattis non. Pellentesque placerat imperdiet ipsum eu
                 sollicitudin. Praesent eget varius lectus, nec scelerisque diam.
-                Duis porttitor euismod dui, eget laoreet dui gravida sed.
+                Duis porttitor euismod dui, eget laoreet dui gravida sed.&#9632; - <i>test name</i>
               </p>
             </div>
             <div className="images-wrapper">

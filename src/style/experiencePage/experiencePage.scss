@@ -92,12 +92,12 @@
         }
       }
       .image-large {
-        transform: rotate(90deg);
+        // transform: rotate(90deg);
         grid-column: right-s/right-e;
         grid-row: top-s/end-e;
 
-        height: 300px;
-        width: 610px;
+        height: 610px;
+        width: 300px;
 
         justify-self: center;
         align-self: center;
