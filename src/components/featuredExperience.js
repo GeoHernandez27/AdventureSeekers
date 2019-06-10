@@ -14,12 +14,12 @@ export default class Experiences extends Component {
             <div className="card">
               
               <div className="card-content">
-                <h2>Experience 1</h2>
+                <h2>Desert Towers</h2>
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
                     <h3>Rock Climbing</h3>    
-                    <h4>Location,XX</h4>
+                    <h4>Moab and Castle Valley</h4>
                  </div>
                  {/* <button className='discoverButton' component={ NavLink } to={'/testOne'}>Discover</button> */}
                  <NavLink className='discoverButton' to={'/rockClimb'}>Discover</NavLink>
@@ -28,12 +28,12 @@ export default class Experiences extends Component {
             <div className="card">
               
               <div className="card-content">
-                <h2>Experience 2</h2>
+                <h2>The Narrows</h2>
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
                     <h3>Hiking</h3>    
-                    <h4>Location,XX</h4>
+                    <h4>Zion's National Park</h4>
                  </div>
                  <NavLink className='discoverButton' to={'/hike'}>Discover</NavLink>
               </div>
