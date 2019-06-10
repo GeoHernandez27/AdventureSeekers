@@ -1,7 +1,6 @@
 .experiencePage-wrapper {
   display: grid;
-  grid-template-rows: [banner-s] 600px [banner-e content-s] 1fr [content-e guide-s] 1fr [guide-e];
-  //   grid-row-gap: 100px;
+  grid-template-rows: [banner-s] 600px [banner-e content-s] 500px [content-e guide-s] 500px [guide-e local-s] 500px [local-e];
 }
 
 //BANNER STYLES
@@ -17,7 +16,6 @@
 
     &__title {
       position: absolute;
-      // top: 8px;
       left: 16px;
       color: white;
     }
@@ -31,6 +29,10 @@
 
 //MAIN CONTENT STYLES
 
+.highlight {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #ffd0ae 50%);
+}
+
 .experiencePage-content__wrapper {
   grid-row: content-s/content-e;
 
@@ -41,7 +43,6 @@
     padding: 50px 100px 50px 100px;
 
     .article-section__content {
-      // grid-column: articles-s/articles-e;
       font-size: 1.5rem;
 
       h2 {
@@ -106,3 +107,4 @@
     }
   }
 }
+

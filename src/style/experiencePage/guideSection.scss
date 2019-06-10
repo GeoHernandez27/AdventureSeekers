@@ -1,0 +1,36 @@
+//Guide styles
+
+.guide-section-wrapper {
+    display: grid;
+    text-transform: uppercase;
+    padding: 40px 20px;
+    text-align: center;
+    grid-row: guide-s/guide-e;
+  }
+  
+  .guide-section-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .guides {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 75px;
+  
+    .guide-content {
+      display: flex;
+  
+      align-items: center;
+    }
+  }
+  
+  .guide-image img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  

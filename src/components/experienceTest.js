@@ -56,23 +56,81 @@ export default class experienceTestOne extends Component {
             </div>
           </div>
           <div className="guide-section-wrapper">
+            <h2>What our guides <span className="highlight">think</span></h2>
             <div className="guide-section-grid">
-              <div className="guide-one">
-                <div className="guide-image">Guide Image</div>
-                <div className="guide-content">Guide Content</div>
+              <div className="guides guide-one">
+                <div className="guide-image">
+                  <img
+                    src={require("../../static/assets/images/locals/local1.png")}
+                  />
+                </div>
+                <div className=" guide-content">
+                  <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                  </p>
+                </div>
               </div>
-              <div className="guide-two">
-                <div className="guide-image">Guide Image</div>
-                <div className="guide-content">Guide Content</div>
+              <div className="guides guide-two">
+                <div className="guide-image">
+                  <img
+                    src={require("../../static/assets/images/locals/local1.png")}
+                  />
+                </div>
+                <div className="guide-content">
+                  <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                  </p>
+                </div>
               </div>
-              <div className="local-interests__wrapper">
-                <h3>Local Interests section header</h3>
-                <div className="local-interests__image">
-                  <div className="local-interests__header">
+            </div>
+          </div>
+          <div className="local-interests__wrapper">
+            <h3><span className="highlight">While you're there,</span> make sure to check out...</h3>
+            <div className="local-interests-container">
+              <div className="local-interests__cards">
+                <div className="local-interests__section local-interest__one">
+                  <img
+                    src={require("../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                  />
+                  <div className="local-interests__content">
                     <h4>interests header</h4>
-                    <p>interests content</p>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
                   </div>
                 </div>
+                <div className="local-interests__section local-interest__two">
+                  <img
+                    src={require("../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                  />
+                  <div className="local-interests__content">
+                    <h4>interests header</h4>
+                    <p>
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum."
+                    </p>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
