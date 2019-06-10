@@ -14,12 +14,15 @@
     justify-content: center;
     height: 415px;
 
+
     &__title {
       position: absolute;
       left: 16px;
       color: white;
       font-family: "Abril Fatface", cursive;
       font-size: 100px;
+      background-color: rgb(233, 218, 81);
+      padding: 10px;
     }
 
     &__image {
@@ -52,6 +55,7 @@
         font-weight: 700;
         font-size: 3em;
         padding-bottom: 50px;
+        
       }
 
       .highlight {
