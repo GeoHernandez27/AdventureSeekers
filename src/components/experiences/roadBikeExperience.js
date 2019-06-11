@@ -57,7 +57,7 @@ export default class experienceRoadBike extends Component {
           </div>
           <div className="guide-section-wrapper">
             <h2>
-              What our guides <span className="highlight">think</span>
+              What our locals <span className="highlight">think</span>
             </h2>
             <div className="guide-section-grid">
               <div className="guides guide-one">

@@ -10,28 +10,27 @@ export default class experienceMountainBike extends Component {
               className="header-background__image"
               src={require("../../../static/assets/images/featuredExperience/heroBanner/heroBannerTest.jpg")}
             />
-            <h1 className="header-background__title">mountain bike</h1>
+            <h1 className="header-background__title">The Whole Enchilada</h1>
           </div>
         </div>
         <div className="experiencePage-content__wrapper">
           <div className="article-section">
             <div className="article-section__content">
               <h2>
-                <span className="highlight">Article</span> Title
+                <span className="highlight">Enchiladas</span> Anyone?
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent vitae sem quis dolor sodales maximus hendrerit sit amet
-                libero. Vestibulum mollis tempor efficitur. Mauris sit amet
-                porta ligula. Nullam porta dolor a risus pharetra, non lobortis
-                ipsum vehicula. Nulla pretium faucibus sem nec luctus. Aliquam
-                urna velit, blandit quis consectetur eget, pretium sit amet
-                ipsum. Praesent porta aliquam est, id rhoncus velit malesuada
-                at. Vestibulum tincidunt congue libero, et pulvinar urna aliquet
-                eget. Sed in tellus nisi. Suspendisse blandit risus sem, sed
-                auctor elit mattis non. Pellentesque placerat imperdiet ipsum eu
-                sollicitudin. Praesent eget varius lectus, nec scelerisque diam.
-                Duis porttitor euismod dui, eget laoreet dui gravida sed.&#9632; - <i>test name</i>
+                "A shuttle of the Whole Enchilada will see you descend 7,000
+                feet from the high-alpine forests atop La Sal Mountain to the
+                emerald Colorado River in 27 miles. However, it’s easy to dodge
+                the crowds without sacrificing any fun. You can’t go wrong with
+                the Amasa Back/Captain Ahab, Sovereign, or Navajo Rocks trail
+                systems, but to capitalize on bang for buck, link up the seven
+                trails that make up the Magnificent 7 route. The 26-plus-mile
+                ride showcases just about everything that makes riding in Moab
+                so special, including ledge drops, slickrock, fast and flowing
+                dirt, and endless scenic vistas."&#9632; -{" "}
+                <i>Nick Heil, Outside Magazine</i>
               </p>
             </div>
             <div className="images-wrapper">
@@ -57,7 +56,7 @@ export default class experienceMountainBike extends Component {
           </div>
           <div className="guide-section-wrapper">
             <h2>
-              What our guides <span className="highlight">think</span>
+              What our locals <span className="highlight">think</span>
             </h2>
             <div className="guide-section-grid">
               <div className="guides guide-one">
@@ -68,10 +67,11 @@ export default class experienceMountainBike extends Component {
                 </div>
                 <div className=" guide-content">
                   <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "There are really no words to describe this trail. The most
+                    fun I think I've had on a mountain bike in a long time. A
+                    little harsh on a hard tail with a 100mm fork but completely
+                    rideable even at speed...just my arms are about to fall off
+                    now."
                   </p>
                 </div>
               </div>
@@ -83,10 +83,13 @@ export default class experienceMountainBike extends Component {
                 </div>
                 <div className="guide-content">
                   <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "We have ridden this trail a few times, lots of great info
+                    below but cannot stress WATER enough. Make sure you have a
+                    full camelback and a water bottle. In the summer months, you
+                    want to start SUPER early so you're done before temps get
+                    over 100. Definitely recommend renting pads if you're going
+                    to try the tough features/drops, and simply because by the
+                    end of the ride you can get tired and make rookie moves. "
                   </p>
                 </div>
               </div>
@@ -104,16 +107,18 @@ export default class experienceMountainBike extends Component {
                     src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
                   />
                   <div className="local-interests__content">
-                    <h4>interests header</h4>
+                    <h4>White Rim Trail</h4>
                     <p>
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum."
+                      For an endurance challenge, head to White Rim Trail, which
+                      circumnavigates the Island in the Sky mesa, a broad
+                      plateau above the Green and Colorado Rivers. Ride the
+                      100-mile route, clockwise, in a day if you’re feeling
+                      tough and fit. Or break it up into a two- or three-day
+                      bikepacking adventure. Stellar views, sweet slickrock
+                      campsites, and remote backcountry await. Just be smart
+                      when planning water, food, mechanicals, and shelter.
+                      You’ll need a camping or day-use permit from Canyonlands
+                      National Park.
                     </p>
                   </div>
                 </div>
@@ -122,16 +127,18 @@ export default class experienceMountainBike extends Component {
                     src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
                   />
                   <div className="local-interests__content">
-                    <h4>interests header</h4>
+                    <h4>Moab Giants</h4>
                     <p>
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum."
+                      Take a day off from bikes and hikes, and immerse yourself
+                      in the region’s natural history, starting at Moab Giants,
+                      a museum dedicated to the area’s prehistoric heritage.
+                      While it may seem like a tourist trap from the road, the
+                      attraction actually has some serious science and great
+                      displays, including life-size dinos. Then see the real
+                      thing—or at least real dinosaur footprints—for yourself at
+                      Mill Canyon Dinosaur Trails, an interpretive loop run by
+                      the Bureau of Land Management 16 miles outside town along
+                      Highway 191.
                     </p>
                   </div>
                 </div>
