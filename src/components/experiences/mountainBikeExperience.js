@@ -8,16 +8,17 @@ export default class experienceMountainBike extends Component {
           <div className="header-background">
             <img
               className="header-background__image"
-              src={require("../../../static/assets/images/featuredExperience/heroBanner/heroBannerTest.jpg")}
+              src={require("../../../static/assets/images/featuredExperience/mountainBike/heroBanner/mountainBHero.jpg")}
             />
-            <h1 className="header-background__title">The Whole Enchilada</h1>
+            <h1 className="header-background__title">The Whole <br></br>
+             Enchilada</h1>
           </div>
         </div>
         <div className="experiencePage-content__wrapper">
           <div className="article-section">
             <div className="article-section__content">
               <h2>
-                <span className="highlight">Enchiladas</span> Anyone?
+                <span className="highlight">Stoke</span>, Sweat, and Enchiladas
               </h2>
               <p>
                 "A shuttle of the Whole Enchilada will see you descend 7,000
@@ -29,7 +30,7 @@ export default class experienceMountainBike extends Component {
                 trails that make up the Magnificent 7 route. The 26-plus-mile
                 ride showcases just about everything that makes riding in Moab
                 so special, including ledge drops, slickrock, fast and flowing
-                dirt, and endless scenic vistas."&#9632; -{" "}
+                dirt, and endless scenic vistas." -
                 <i>Nick Heil, Outside Magazine</i>
               </p>
             </div>
@@ -37,18 +38,18 @@ export default class experienceMountainBike extends Component {
               <div className="images-container">
                 <div className="image-small__one">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/gridImages/small1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/mountainBike/gridImages/mountainBSmall1.jpg")}
                   />
                 </div>
                 <div className="image-small__two">
                   {" "}
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/gridImages/small2.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/mountainBike/gridImages/mountainBSmall2.jpg")}
                   />
                 </div>
                 <div className="image-large">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/gridImages/verticalTest.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/mountainBike/gridImages/mountainBTall.jpg")}
                   />
                 </div>
               </div>
@@ -62,7 +63,7 @@ export default class experienceMountainBike extends Component {
               <div className="guides guide-one">
                 <div className="guide-image">
                   <img
-                    src={require("../../../static/assets/images/locals/local1.png")}
+                    src={require("../../../static/assets/images/locals/mountainBGuide1.png")}
                   />
                 </div>
                 <div className=" guide-content">
@@ -78,7 +79,7 @@ export default class experienceMountainBike extends Component {
               <div className="guides guide-two">
                 <div className="guide-image">
                   <img
-                    src={require("../../../static/assets/images/locals/local1.png")}
+                    src={require("../../../static/assets/images/locals/mountainBGuide2.png")}
                   />
                 </div>
                 <div className="guide-content">
@@ -104,7 +105,7 @@ export default class experienceMountainBike extends Component {
               <div className="local-interests__cards">
                 <div className="local-interests__section local-interest__one">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/mountainBike/localSpots/whiteRim.jpg")}
                   />
                   <div className="local-interests__content">
                     <h4>White Rim Trail</h4>
@@ -124,7 +125,7 @@ export default class experienceMountainBike extends Component {
                 </div>
                 <div className="local-interests__section local-interest__two">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/mountainBike/localSpots/giants.jpg")}
                   />
                   <div className="local-interests__content">
                     <h4>Moab Giants</h4>
