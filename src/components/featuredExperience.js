@@ -54,12 +54,12 @@ export default class Experiences extends Component {
             <div className="card">
               
               <div className="card-content">
-                <h2>Experience 4</h2>
+                <h2>Bridal Veil Falls</h2>
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Mountaineering</h3>    
-                    <h4>Location,XX</h4>
+                    <h3>Ice Climbing</h3>    
+                    <h4>Provo Canyon</h4>
                  </div>
                  <NavLink className='discoverButton' to={'/mountaineering'}>Discover</NavLink>
               </div>

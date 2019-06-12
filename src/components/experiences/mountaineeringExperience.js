@@ -8,7 +8,7 @@ export default class experienceMountaineering extends Component {
           <div className="header-background">
             <img
               className="header-background__image"
-              src={require("../../../static/assets/images/featuredExperience/ice/heroBanner/iceHero.jpg")}
+              src={require("../../../static/assets/images/featuredExperience/ice/heroBanner/iceHero2.jpg")}
             />
             <h1 className="header-background__title">Bridal Veil Falls</h1>
           </div>
@@ -123,7 +123,7 @@ export default class experienceMountaineering extends Component {
                 </div>
                 <div className="local-interests__section local-interest__two">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/ice/localSpots/virtualReality.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/ice/localSpots/vr.jpg")}
                   />
                   <div className="local-interests__content">
                     <h4>Virtual Experience Arcade</h4>
