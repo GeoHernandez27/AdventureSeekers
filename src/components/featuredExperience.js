@@ -14,106 +14,106 @@ export default class Experiences extends Component {
             <div className="card">
               
               <div className="card-content">
-                <h2>Desert Towers</h2>
+                <h2 className='card-title'>Desert <br></br> Towers</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/rockCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Rock Climbing</h3>    
                     <h4>Moab and Castle Valley</h4>
-                 </div>
+                 </div> */}
                  {/* <button className='discoverButton' component={ NavLink } to={'/testOne'}>Discover</button> */}
-                 <NavLink className='discoverButton' to={'/rockClimb'}>Discover</NavLink>
+                 <NavLink className='discoverButton' to={'/rockClimb'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>The Narrows</h2>
+                <h2 className='card-title'>The <br></br> Narrows</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/hikingCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Hiking</h3>    
                     <h4>Zion's National Park</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/hike'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/hike'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>The Whole Enchilada</h2>
+                <h2 className='card-title'>The<br></br> Whole <br></br> Enchilada</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/mountainBCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Mountain Biking</h3>    
                     <h4>La Sal, CO to Moab, UT</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/mountainBike'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/mountainBike'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>Bridal Veil Falls</h2>
+                <h2 className='card-title'>Bridal<br></br> Veil<br></br> Falls</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/mountaineeringCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Ice Climbing</h3>    
                     <h4>Provo Canyon</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/mountaineering'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/mountaineering'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>Paddle Lake Powell</h2>
+                <h2 className='card-title'>Paddle <br></br>Lake <br></br>Powell</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/paddleCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Stand Up Paddleboard</h3>    
                     <h4>Lake Powell</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/paddle'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/paddle'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>Green River</h2>
+                <h2 className='card-title'>Green <br></br>River</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/riverCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Rafting</h3>    
                     <h4>Desolation Canyon</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/river'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/river'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>Mirror Lake Highway </h2>
+                <h2 className='card-title'>Mirror<br></br> Lake <br></br> Highway </h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/roadBCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Road Bike</h3>    
                     <h4>Kamas-Park City</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/roadBike'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/roadBike'}>EXPLORE</NavLink>
               </div>
             </div>
             <div className="card">
               
               <div className="card-content">
-                <h2>Ski Mt Superior</h2>
+                <h2 className='card-title'>Ski <br></br> Mt <br></br>Superior</h2>
                 <img
-                src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
-                <div className='card-content__description'>
+                src={require("../../static/assets/images/featuredExperience/card/skiCard.jpg")}/>
+                {/* <div className='card-content__description'>
                     <h3>Backcountry Skiing</h3>    
                     <h4>Little CottonWood Canyon</h4>
-                 </div>
-                 <NavLink className='discoverButton' to={'/ski'}>Discover</NavLink>
+                 </div> */}
+                 <NavLink className='discoverButton' to={'/ski'}>EXPLORE</NavLink>
               </div>
             </div>
           </section>
