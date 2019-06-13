@@ -93,12 +93,12 @@ export default class Experiences extends Component {
             <div className="card">
               
               <div className="card-content">
-                <h2>Experience 7</h2>
+                <h2>Mirror Lake Highway </h2>
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
                     <h3>Road Bike</h3>    
-                    <h4>Location,XX</h4>
+                    <h4>Kamas-Park City</h4>
                  </div>
                  <NavLink className='discoverButton' to={'/roadBike'}>Discover</NavLink>
               </div>
@@ -106,12 +106,12 @@ export default class Experiences extends Component {
             <div className="card">
               
               <div className="card-content">
-                <h2>Experience 8</h2>
+                <h2>Ski Mt Superior</h2>
                 <img
                 src={require("../../static/assets/images/featuredExperience/card/cardTest.jpg")}/>
                 <div className='card-content__description'>
-                    <h3>Skiing</h3>    
-                    <h4>Location,XX</h4>
+                    <h3>Backcountry Skiing</h3>    
+                    <h4>Little CottonWood Canyon</h4>
                  </div>
                  <NavLink className='discoverButton' to={'/ski'}>Discover</NavLink>
               </div>

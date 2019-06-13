@@ -8,48 +8,48 @@ export default class experienceSki extends Component {
           <div className="header-background">
             <img
               className="header-background__image"
-              src={require("../../../static/assets/images/featuredExperience/heroBanner/heroBannerTest.jpg")}
+              src={require("../../../static/assets/images/featuredExperience/ski/heroBanner/skiHero.jpg")}
             />
-            <h1 className="header-background__title">ski</h1>
+            <h1 className="header-background__title">Ski Mt Superior</h1>
           </div>
         </div>
         <div className="experiencePage-content__wrapper">
           <div className="article-section">
             <div className="article-section__content">
               <h2>
-                <span className="highlight">Article</span> Title
+                What Goes<span className="highlight">Up...</span>
               </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Praesent vitae sem quis dolor sodales maximus hendrerit sit amet
-                libero. Vestibulum mollis tempor efficitur. Mauris sit amet
-                porta ligula. Nullam porta dolor a risus pharetra, non lobortis
-                ipsum vehicula. Nulla pretium faucibus sem nec luctus. Aliquam
-                urna velit, blandit quis consectetur eget, pretium sit amet
-                ipsum. Praesent porta aliquam est, id rhoncus velit malesuada
-                at. Vestibulum tincidunt congue libero, et pulvinar urna aliquet
-                eget. Sed in tellus nisi. Suspendisse blandit risus sem, sed
-                auctor elit mattis non. Pellentesque placerat imperdiet ipsum eu
-                sollicitudin. Praesent eget varius lectus, nec scelerisque diam.
-                Duis porttitor euismod dui, eget laoreet dui gravida sed.
+                Mount Superior is one of the most iconic skiing mountains in the
+                western United States. This mountain serves as the backdrop for
+                many famous ski photographs, as well as for skiers and boarders
+                in the world-famous Alta Ski Resort and Snowbird Resort.
+                Backcountry skiing Mount Superior is a serious feat, requiring
+                more than 3,000 feet of climbing, some of which is exposed and
+                rocky. There are two main ski descents off of the summit of
+                Superior: Cardiac Bowl and the South Face. The South Face is
+                incredibly steep, and it is often compared to an Alaskan
+                heli-ski line. Cardiac Bowl is more mellow and opens up into a
+                very large open bowl that is perfect for powder skiing.-{" "}
+                <i>Calvin Perfall, Outdoor Project</i>
               </p>
             </div>
             <div className="images-wrapper">
               <div className="images-container">
                 <div className="image-small__one">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/gridImages/small1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/ski/gridImages/skiSmall1.jpg")}
                   />
                 </div>
                 <div className="image-small__two">
                   {" "}
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/gridImages/small2.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/ski/gridImages/skiSmall2.jpg")}
                   />
                 </div>
                 <div className="image-large">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/gridImages/verticalTest.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/ski/gridImages/skiTall.jpg")}
                   />
                 </div>
               </div>
@@ -63,30 +63,27 @@ export default class experienceSki extends Component {
               <div className="guides guide-one">
                 <div className="guide-image">
                   <img
-                    src={require("../../../static/assets/images/locals/local1.png")}
+                    src={require("../../../static/assets/images/locals/skiGuide1.png")}
                   />
                 </div>
                 <div className=" guide-content">
                   <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "Big mountain views. Superb skiing. Significant vertical. A
+                    Wasatch classic."
                   </p>
                 </div>
               </div>
               <div className="guides guide-two">
                 <div className="guide-image">
                   <img
-                    src={require("../../../static/assets/images/locals/local1.png")}
+                    src={require("../../../static/assets/images/locals/skiGuide2.png")}
                   />
                 </div>
                 <div className="guide-content">
                   <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    "In backcountry skiing, starting before dawn is essential.
+                    Not only is it safer but experiencing sunrise amongst snow
+                    covered peaks is other-worldly."
                   </p>
                 </div>
               </div>
@@ -101,37 +98,32 @@ export default class experienceSki extends Component {
               <div className="local-interests__cards">
                 <div className="local-interests__section local-interest__one">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/ski/localSpots/cliff.jpg")}
                   />
                   <div className="local-interests__content">
-                    <h4>interests header</h4>
+                    <h4>The Snowbird Cliff Spa</h4>
                     <p>
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum."
+                      The Cliff Spa has a rooftop pool and hot tub with sensual
+                      surroundings, radiant heated decks and gas-fed fire pits
+                      with increased seating capacity. With incredible views and
+                      a eucalyptus infused environment, the solarium is the
+                      perfect place to relax.
                     </p>
                   </div>
                 </div>
                 <div className="local-interests__section local-interest__two">
                   <img
-                    src={require("../../../static/assets/images/featuredExperience/localSpots/restaurant1.jpg")}
+                    src={require("../../../static/assets/images/featuredExperience/ski/localSpots/beer.jpg")}
                   />
                   <div className="local-interests__content">
-                    <h4>interests header</h4>
+                    <h4>Bohemian Brewery</h4>
                     <p>
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum."
+                      Old-world fare paired with carefully crafted European
+                      style lagers brewed on-site and served in the
+                      cottage-style restaurant filled with laughter and good
+                      times.More than half the tables at Bohemian are communal
+                      with large benches, so that on a busy night, customers
+                      can't help but get to know their neighbor.
                     </p>
                   </div>
                 </div>
