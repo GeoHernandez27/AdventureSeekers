@@ -10,12 +10,11 @@ export default class LandingPage extends Component {
 
     return (
       <div className="landing__container">
-        <img className="main-logo" src="http://via.placeholder.com/150x150" />
-
+      
         
         <div className="header-wrapper">
 
-          <h1 className="header-text">Test Landing Page Text</h1>
+          <h1 className="header-text">Stop wishing, <br></br>start doing.</h1>
           <span id='down'> &#8595;</span>
   
           {/* TO DO

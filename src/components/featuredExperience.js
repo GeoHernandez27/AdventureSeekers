@@ -47,7 +47,7 @@ export default class Experiences extends Component {
                 {/* <div className='card-content__description'>
                     <h3>Mountain Biking</h3>    
                     <h4>La Sal, CO to Moab, UT</h4>
-                 </div> */}
+                </div> */}
                  <NavLink className='discoverButton' to={'/mountainBike'}>EXPLORE</NavLink>
               </div>
             </div>
