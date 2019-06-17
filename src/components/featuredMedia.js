@@ -7,13 +7,12 @@ export default class FeaturedMedia extends Component {
         <h1 className="media-header">Featured In...</h1>
         <div className="featured-media__wrapper">
           <div className="featured-media__main">
-            <h2 className='main-media__title'>Outside Magazine</h2>
+            <h2 className="main-media__title">Outside Magazine</h2>
             <img
               className="media-main_image"
               src={require("../../static/assets/images/featuredMedia/outsideMag.jpg")}
             />
-            {/* <h3>Article Title</h3> */}
-            {/* https://www.outsideonline.com/2382426/moab-utah-travel-guide-hotels-trails-biking */}
+
             <div className="overlay">
               <div className="content-text-main">
                 <h3 className="content-text__main-header">
@@ -26,16 +25,21 @@ export default class FeaturedMedia extends Component {
                   famed national parks to rafting the Colorado River.
                 </p>
               </div>
-              <button className="visitButton-large">VISIT SITE</button>
+              <a
+                className="visitButton-large"
+                target="_blank"
+                href="https://www.outsideonline.com/2382426/moab-utah-travel-guide-hotels-trails-biking"
+              >
+                VISIT SITE
+              </a>
             </div>
           </div>
           <div className="featured-media__small">
-            <h2 className='small-media__title'>Lonely Planet</h2>
+            <h2 className="small-media__title">Lonely Planet</h2>
             <img
               className="media-small_image"
               src={require("../../static/assets/images/featuredMedia/lonelyP.jpg")}
             />
-            {/* <h3>Article Title</h3> */}
 
             <div className="overlay">
               <div className="content-text-small">
@@ -44,20 +48,25 @@ export default class FeaturedMedia extends Component {
                 </h3>
                 <p className="content-text__small-summary">
                   Utah is perhaps the singular best spot on the planet for
-                  canyoneering. 
+                  canyoneering.
                 </p>
               </div>
-              <button className="visitButton">VISIT SITE</button>
-              {/* https://www.lonelyplanet.com/usa/southwest/utah/travel-tips-and-articles/gearheads-guide-to-canyoneering-in-utah/40625c8c-8a11-5710-a052-1479d276960c */}
+              <a
+                className="visitButton"
+                target="_blank"
+                href="https://www.lonelyplanet.com/usa/southwest/utah/travel-tips-and-articles/gearheads-guide-to-canyoneering-in-utah/40625c8c-8a11-5710-a052-1479d276960c"
+              >
+                VISIT SITE
+              </a>
             </div>
           </div>
           <div className="featured-media__small">
-            <h2 className='small-media__title'>Ski Magazine</h2>
+            <h2 className="small-media__title">Ski Magazine</h2>
             <img
               className="media-small_image"
               src={require("../../static/assets/images/featuredMedia/skiMag.jpg")}
             />
-            {/* <h3>Article Title</h3> */}
+
             <div className="overlay">
               <div className="content-text-small">
                 <h3 className="content-text__small-header">
@@ -68,17 +77,22 @@ export default class FeaturedMedia extends Component {
                   out this season.
                 </p>
               </div>
-              <button className="visitButton">VISIT SITE</button>
-              {/* https://www.skimag.com/ski-resort-life/why-you-should-ski-solitude-mountain-resort */}
+              <a
+                className="visitButton"
+                target="_blank"
+                href="https://www.skimag.com/ski-resort-life/why-you-should-ski-solitude-mountain-resort"
+              >
+                VISIT SITE
+              </a>
             </div>
           </div>
           <div className="featured-media__small">
-            <h2 className='small-media__title'>Bike Magazine</h2>
+            <h2 className="small-media__title">Bike Magazine</h2>
             <img
               className="media-small_image"
               src={require("../../static/assets/images/featuredMedia/bikeMag.jpg")}
             />
-            {/* <h3>Article Title</h3> */}
+
             <div className="overlay">
               <div className="content-text-small">
                 <h3 className="content-text__small-header">Slow Roll</h3>
@@ -86,17 +100,22 @@ export default class FeaturedMedia extends Component {
                   Southwest Utah's rise to riding fame
                 </p>
               </div>
-              <button className="visitButton">VISIT SITE</button>
-              {/* https://www.bikemag.com/features/originals/slow-roll/ */}
+              <a
+                className="visitButton"
+                target="_blank"
+                href="https://www.bikemag.com/features/originals/slow-roll/"
+              >
+                VISIT SITE
+              </a>
             </div>
           </div>
           <div className="featured-media__small">
-            <h2 className='small-media__title'>Climbing Magazine</h2>
+            <h2 className="small-media__title">Climbing Magazine</h2>
             <img
               className="media-small_image"
               src={require("../../static/assets/images/featuredMedia/climbMag.jpg")}
             />
-            {/* <h3>Article Title</h3> */}
+
             <div className="overlay">
               <div className="content-text-small">
                 <h3 className="content-text__small-header">
@@ -107,8 +126,13 @@ export default class FeaturedMedia extends Component {
                   Revolution
                 </p>
               </div>
-              <button className="visitButton">VISIT SITE</button>
-              {/* https://www.climbing.com/places/it-starts-at-impossible-american-fork-canyon-and-the-birth-of-americas-steep-revolution/ */}
+              <a
+                className="visitButton"
+                target="_blank"
+                href="https://www.climbing.com/places/it-starts-at-impossible-american-fork-canyon-and-the-birth-of-americas-steep-revolution/"
+              >
+                VISIT SITE
+              </a>
             </div>
           </div>
         </div>

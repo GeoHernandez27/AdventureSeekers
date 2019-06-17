@@ -16,9 +16,9 @@
 
 .featured-media__wrapper {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 300px 300px;
   grid-template-columns: [main-s] 1fr[main-e second-s] 0.5fr [second-e third-s] 0.5fr [third-e];
-  grid-row-gap: 1px;
+  grid-row-gap: 8px;
   grid-column-gap: 10px;
 }
 
