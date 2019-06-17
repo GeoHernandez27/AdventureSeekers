@@ -1,31 +1,41 @@
 .bm-burger-button {
   position: fixed;
-  width: 25px;
-  height: 20px;
+  width: 40px;
+  height: 35px;
   right: 36px;
   top: 36px;
-
 
 }
 
 a {
   color: white;
+  font-size: 1.8em;
+  
+  transition: 0.3s all ease-in-out;
+}
+a:hover {
+  color: black;
+  
+}
+
+.active {
+  color: rgb(233, 218, 81);
 }
 
 .bm-burger-bars {
-  background: yellow;
+  background: black;
   border-radius: 50px;
+  
+  
 }
 
 .bm-burger-bars-hover {
-  color: white;
+  color: black;
 }
 
 .bm-cross-button {
   height: 24px;
   width: 24px;
-
-  
 
 }
 
@@ -46,6 +56,7 @@ a {
 
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+
   }
   
 

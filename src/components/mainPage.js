@@ -9,6 +9,7 @@ import LandingPage from './landingPage/landingPage';
 
 import HamburgerMenu from './header/menu';
 
+
 export default class MainPage extends Component {
     render() {
         return (
@@ -20,7 +21,7 @@ export default class MainPage extends Component {
           
                 
                 
-                <Experiences />
+                <Experiences id='featuredExp' />
                 <LocalTips />
                 <FeaturedMedia /> 
 
