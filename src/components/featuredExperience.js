@@ -11,7 +11,7 @@ export default class Experiences extends Component {
           {/* Build out featured experiences full section*/}
 
           <section className="horizontal-scroll">
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>Desert <br></br> Towers</h2>
@@ -25,7 +25,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/rockClimb'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>The <br></br> Narrows</h2>
@@ -38,7 +38,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/hike'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>The<br></br> Whole <br></br> Enchilada</h2>
@@ -51,7 +51,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/mountainBike'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>Bridal<br></br> Veil<br></br> Falls</h2>
@@ -64,7 +64,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/mountaineering'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>Paddle <br></br>Lake <br></br>Powell</h2>
@@ -77,7 +77,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/paddle'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>Green <br></br>River</h2>
@@ -90,7 +90,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/river'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>Mirror<br></br> Lake <br></br> Highway </h2>
@@ -103,7 +103,7 @@ export default class Experiences extends Component {
                  <NavLink className='discoverButton' to={'/roadBike'}>EXPLORE</NavLink>
               </div>
             </div>
-            <div className="card">
+            <div className="experienceCard">
               
               <div className="card-content">
                 <h2 className='card-title'>Ski <br></br> Mt <br></br>Superior</h2>
