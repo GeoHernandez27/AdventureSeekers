@@ -25,23 +25,14 @@
 .featured-media__main,
 .featured-media__small {
   display: flex;
-  // justify-content: flex-end;
+
   justify-content: center;
-  // flex-direction: column;
+
   align-items: center;
   position: relative;
 
-  // h3 {
-  //   bottom: 20%;
-  //   color: white;
-
-  //   position: absolute;
-  // }
-
-
-  
   .main-media__title,
-  .small-media__title{
+  .small-media__title {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: white;
@@ -55,7 +46,6 @@
 
   .main-media__title {
     font-size: 6.5em;
-    
   }
   .small-media__title {
     font-size: 3.2em;
@@ -115,13 +105,10 @@
     align-items: center;
     color: white;
     text-align: center;
-    // top: 50%;
+
     padding: 15px;
   }
 
-  // .content-text-main {
-  //   font-size: 2.5rem;
-  // }
   .content-text-small {
     font-size: 1.5rem;
   }
@@ -141,23 +128,12 @@
   padding-top: 10px;
 }
 
-.content-text__small-summary{
+.content-text__small-summary {
   font-size: 0.75em;
-} 
+}
 
 .visitButton,
 .visitButton-large {
-  // position: relative;
-  // // transform: translateY(200%);
-  // bottom: 5px;
-  // background-color: yellow;
-  // color: gray;
-  // font-size: 1rem;
-  // border: none;
-  // cursor: pointer;
-
-  // transition: 0.3s all ease-in-out;
-
   position: relative;
   bottom: 5%;
 
@@ -179,10 +155,6 @@
 .visitButton:focus,
 .visitButton-large:focus,
 .visitButton-large:hover {
-  // background-color: gray;
-  // color: black;
-  // outline: none;
-  // border: 0;
   background-color: white;
   outline: none;
   border: 0;
@@ -190,27 +162,3 @@
   outline: 2px solid white;
   color: rgb(46, 46, 46);
 }
-
-
-// .visitButton-large {
-//     position: relative;
-//     // transform: translateY(800%);
-//     top: 5vh;
-//     background-color: yellow;
-//     color: gray;
-//     font-size: 1.5rem;
-//     border: none;
-//     cursor: pointer;
-  
-//     transition: 0.3s all ease-in-out;
-// }
-
-
-
-// .visitButton-large:hover,
-// .visitButton-large:focus {
-//   background-color: gray;
-//   color: black;
-//   outline: none;
-//   border: 0;
-// }

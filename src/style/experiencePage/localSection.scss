@@ -6,9 +6,6 @@
   padding: 40px 55px;
   text-align: center;
   grid-row: local-s/local-e;
-  
-
-  
 }
 
 .local-interests-container {
@@ -17,8 +14,6 @@
   align-content: center;
   flex-direction: row-reverse;
   padding-top: 20px;
-
-  
 }
 
 .local-interests__cards {
@@ -26,7 +21,6 @@
   width: 100%;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
-  
 }
 .local-interests__section {
   display: grid;
@@ -35,14 +29,11 @@
   img {
     height: auto;
     width: 650px;
-    // border-radius: 5px;
-    
   }
 }
 .local-interest__one {
   display: flex;
   flex-direction: row;
-  
 }
 
 .local-interest__two {
@@ -53,5 +44,4 @@
 .local-interests__content {
   padding: 60px 100px;
   text-align: left;
-
 }

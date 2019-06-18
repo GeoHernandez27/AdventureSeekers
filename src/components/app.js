@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import MainPage from "./mainPage";
 import errorPage from "./error";
-import HamburgerMenu from "./header/menu";
+import HamburgerMenu from "./menu";
 
 import experienceRockClimb from "./experiences/rockExperience";
 import experienceHike from "./experiences/hikeExperience";
@@ -13,6 +13,7 @@ import experiencePaddle from "./experiences/paddleExperience";
 import experienceRiver from "./experiences/riverExperience";
 import experienceRoadBike from "./experiences/roadBikeExperience";
 import experienceSki from "./experiences/skiExperience";
+
 import ScrollToTop from "./scrollToTop";
 
 export default class App extends Component {
