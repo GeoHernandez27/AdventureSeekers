@@ -7,13 +7,21 @@
 
 }
 
-a {
-  color: white;
-  font-size: 1.8em;
+.menu-item {
   
-  transition: 0.3s all ease-in-out;
+    color: white;
+    font-size: 1.8em;
+    
+    transition: 0.3s all ease-in-out;
+  
 }
-a:hover {
+// a {
+//   color: white;
+//   font-size: 1.8em;
+  
+//   transition: 0.3s all ease-in-out;
+// }
+.menut-item:hover {
   color: black;
   
 }
@@ -64,7 +72,7 @@ a:hover {
   color: #b8b7ad;
   padding: 0.8em;
 
-  a {
+  .menu-item {
     outline: 0;
     border: none;
     text-decoration: none;
