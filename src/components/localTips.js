@@ -6,6 +6,7 @@ export default class LocalTips extends Component {
         return (
             <div className='local-section'>
                 <h1 className='local-section__header'>Tips from locals</h1>
+                
                 <LocalComponent />
             </div>
         )

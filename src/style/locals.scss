@@ -1,54 +1,91 @@
 .local-section {
-    display: grid;
-    text-transform: uppercase;
-    padding: 40px 50px;
-    text-align: center;
-    grid-row: local-s/local-e;
-
-    
-    
+  display: grid;
+  text-transform: uppercase;
+  padding: 40px 50px;
+  text-align: center;
+  grid-row: local-s/local-e;
 }
 
 .local-section__header {
-    font-family: "Raleway", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    padding: 50px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 50px;
 }
 
 .locals-wrapper {
-    background-color: rgb(238, 238, 238);
+  background-color: rgb(238, 238, 238);
 }
 .local-user-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-
-    
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .user-wrapper {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-    padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  padding: 50px;
 
-    .user-text__wrapper {
-        display: flex;
-        
-        align-items: center;
-    }
+  .user-text__wrapper {
+    display: flex;
+
+    align-items: center;
+  }
 }
 
 .user-text__content {
-    text-align: left;
-    padding-left: 15px;
+  text-align: left;
+  padding-left: 15px;
 }
 
 .user-image img {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
+}
+
+@media (max-width: 375px) {
+  .local-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .local-section__header {
+    padding: 0px;
+    font-size: 3em;
+  }
+
+  .locals-wrapper {
+    background-color: rgb(238, 238, 238);
+  }
+  .local-user-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user-wrapper {
+    justify-content: center;
+
+    flex-direction: column;
+
+    padding: 10px;
+
+    .user-text__wrapper {
+      width: 70vw;
+    }
+  }
+
+  .user-text__content {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .user-image img {
+    padding-bottom: 5px;
+  }
 }
