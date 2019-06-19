@@ -42,10 +42,13 @@
       flex-direction: column;
       width: 375px;
       // text-transform: uppercase;
-      padding: 40px 0px;
+      padding: 0px 0px;
       // text-align: center;
       
       // background-color: rgb(238, 238, 238);
+      h2 {
+        padding: 20px;
+      }
     }
     
     .guide-section-grid {
