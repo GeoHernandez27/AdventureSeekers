@@ -162,3 +162,69 @@
   outline: 2px solid white;
   color: rgb(46, 46, 46);
 }
+
+@media (max-width: 375px) {
+  .featured-media__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .media-header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .featured-media__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-media__main {
+    .main-media__title {
+      font-size: 3.2em;
+    }
+  }
+
+  .featured-media__main {
+    height: 400px;
+
+    .media-main_image {
+      height: auto;
+      width: 400px;
+      border-radius: 0px;
+    }
+  }
+
+  .main-media__title {
+    font-size: 6.5em;
+  }
+
+
+  .featured-media__small {
+    height: 375px;
+    .media-small_image {
+      height: 375px;
+      width: 400px;
+      border-radius: 0px;
+    }
+  }
+  .overlay {
+    border-radius: 0px;
+    .content-text-small {
+      font-size: 1.5rem;
+    }
+  }
+  .content-text__main-header {
+    font-size: 2em;
+  }
+  .content-text__main-summary {
+    font-size: 1.2em;
+  }
+  .content-text__small-header {
+    font-size: 1.3em;
+  }
+  .content-text__small-summary {
+    font-size: 1em;
+  }
+}
