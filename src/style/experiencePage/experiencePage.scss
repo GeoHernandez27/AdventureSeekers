@@ -112,3 +112,123 @@
     }
   }
 }
+
+
+@media (max-width: 375px) {
+  .main-page__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .header-banner-wrapper {
+    // display: flex;
+    // flex-direction: column;
+
+    width: 375px;
+  
+    .header-background {
+      // display: flex;
+      // flex-direction: column;
+      // align-items: center;
+      // justify-content: center;
+      // height: 415px;
+  
+      &__title {
+        // position: absolute;
+        // left: 16px;
+        // color: white;
+        // font-family: "Raleway", sans-serif;
+        // text-transform: uppercase;
+        // text-shadow: 4px 4px black;
+        font-size: 4.5em;
+        top: 25%;
+        // padding: 10px;
+      }
+  
+      &__image {
+        // background-image: url(../../static/assets/images/featuredExperience/rockClimb/heroBanner/rockHeroMobile.jpg);
+        height: 100vh;
+        width: 100vw;
+      }
+    }
+  }
+  
+  //MAIN CONTENT STYLES
+  
+  // .highlight {
+  //   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #ffd0ae 50%);
+  // }
+  
+  .experiencePage-content__wrapper {
+    // grid-row: content-s/content-e;
+  
+    .article-section {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+      // grid-template-columns: [article-s] 1fr [ pictures-s] 1fr [article-e pictures-e];
+      padding: 20px ;
+  
+      .article-section__content {
+        padding: 10px;
+  
+        h2 {
+
+          font-size: 2.2em;
+          padding-bottom: 15px;
+        }
+        p{
+          font-size: .75em;
+        }
+
+        
+      }
+      .images-wrapper {
+        // grid-column: pictures-s/pictures-e;
+        // padding: 20px;
+        display: flex;
+        justify-content: center;
+  
+        .images-container {
+          display: flex;
+          flex-direction: column;
+        }
+  
+        // .image-small__one {
+        //   grid-row: top-s/end-e;
+        // }
+        // .image-small__two {
+        //   grid-row: end-s/end-e;
+        // }
+  
+        .image-small__one,
+        .image-small__two {
+          // grid-column: left-s/left-e;
+          height: 375px;
+          width: 375px;
+          // img {
+          //   height: 100%;
+          //   width: 100%;
+          // }
+        }
+        .image-large {
+          // grid-column: right-s/right-e;
+          // grid-row: top-s/end-e;
+  
+          height: 752px;
+          width: 375px;
+  
+          // justify-self: center;
+          // align-self: center;
+  
+          // img {
+          //   height: 100%;
+          //   width: 100%;
+          // }
+        }
+      }
+    }
+  }
+
+}
