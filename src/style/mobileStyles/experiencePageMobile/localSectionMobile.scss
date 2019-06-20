@@ -1,9 +1,9 @@
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     .local-interests__wrapper {
       display: flex;
       flex-direction: column;
-      width: 375px;
+      width: 100vw;
       padding: 20px 0px;
   
       h3 {
@@ -30,7 +30,7 @@
     .local-interest__two {
       display: flex;
       flex-direction: column;
-      width: 375px;
+      width: 100vw;
     }
   
     .local-interests__content {

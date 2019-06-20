@@ -1,4 +1,4 @@
-@media  (max-width: 375px) {
+@media  (max-width: 415px) {
   
     .experienceCard {
       width: 85vw;
@@ -15,4 +15,8 @@
       overflow-x: scroll;
       -webkit-overflow-scrolling: touch;
     } 
+    .horizontal-scroll::-webkit-scrollbar {
+      display: none;
+    
+    }
   }

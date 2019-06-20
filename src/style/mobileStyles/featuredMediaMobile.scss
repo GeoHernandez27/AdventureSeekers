@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     .featured-media__container {
       display: flex;
       flex-direction: column;
@@ -26,7 +26,7 @@
   
       .media-main_image {
         height: auto;
-        width: 375px;
+        width: 100vw;
         border-radius: 0px;
       }
     }
@@ -40,7 +40,7 @@
       height: 375px;
       .media-small_image {
         height: 375px;
-        width: 375px;
+        width: 100vw;
         border-radius: 0px;
       }
     }

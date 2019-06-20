@@ -1,15 +1,15 @@
 
 //BANNER STYLES
 
-@media (max-width: 375px) {
+@media (max-width: 415px) {
     .main-page__container {
       display: flex;
       flex-direction: column;
-      width: 375px;
+      width: 100vw;
     }
   
     .header-banner-wrapper {
-      width: 375px;
+      width: 100vw;
       overflow: hidden;
   
       .header-background {
@@ -33,7 +33,7 @@
       .article-section {
         display: flex;
         flex-direction: column;
-        width: 375px;
+        width: 100vw;
         padding: 0px 20px 0px 20px;
   
         .article-section__content {
@@ -60,11 +60,11 @@
           .image-small__one,
           .image-small__two {
             height: 375px;
-            width: 375px;
+            width: 100vw;
           }
           .image-large {
             height: 752px;
-            width: 375px;
+            width: 100vw;
           }
         }
       }
