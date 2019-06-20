@@ -34,3 +34,41 @@
       background: rgba(212, 154, 154, 0.6);
     }
   }
+    //TABLET STYLES
+
+    @media only screen and (min-width: 416px) and (max-width: 834px) {
+      .bm-burger-button {
+        width: 45px;
+        height: 30px;
+        right: 20px;
+        top: 20px;
+      }
+    
+      .menu-item {
+        color: white;
+        font-size: 1.8em;
+        padding: 10px;
+        text-align: right;
+      }
+      .active {
+        color: rgb(233, 218, 81);
+      }
+    
+      .menu-item:hover {
+        color: white;
+      }
+    
+      .bm-menu-wrap {
+        position: fixed;
+        height: 100%;
+        width: 40% !important;
+      }
+      .bm-menu {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 2.5em 1.5em 0;
+        font-size: 1.15em;
+      }
+      .bm-overlay {
+        background: rgba(212, 154, 154, 0.6);
+      }
+    }

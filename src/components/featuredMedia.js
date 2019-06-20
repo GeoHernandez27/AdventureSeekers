@@ -34,7 +34,7 @@ export default class FeaturedMedia extends Component {
               </a>
             </div>
           </div>
-          <div className="featured-media__small">
+          <div className="featured-media__small ">
             <h2 className="small-media__title">Lonely Planet</h2>
             <img
               className="media-small_image"

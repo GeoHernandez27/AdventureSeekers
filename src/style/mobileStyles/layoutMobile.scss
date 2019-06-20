@@ -4,3 +4,21 @@
       flex-direction: column;
     }
   }
+
+
+  //TABLET STYLES
+
+  @media only screen and (min-width: 416px) and (max-width: 834px) {
+    .main-page__container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-wrapper {
+      height: 50vh;
+    }
+
+    #down {
+      top: 35vh;
+    }
+  }

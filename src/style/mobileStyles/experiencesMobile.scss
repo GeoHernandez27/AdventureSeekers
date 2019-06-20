@@ -20,3 +20,33 @@
     
     }
   }
+
+    //TABLET STYLES
+
+    @media only screen and (min-width: 416px) and (max-width: 834px) {
+      .featured-experiences-header {
+        padding: 20px 10px;
+      }
+      
+      .experienceCard {
+        width: 60vw;
+        text-align: center; 
+        font-size: 1.3em;
+      }
+    
+      .experienceCard:hover {
+        transform: none;
+        
+      }
+    
+      .horizontal-scroll{
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+
+        padding-top: 0px;
+      } 
+      .horizontal-scroll::-webkit-scrollbar {
+        display: none;
+      
+      }
+    }
