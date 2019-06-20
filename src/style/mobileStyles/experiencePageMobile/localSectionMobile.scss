@@ -1,0 +1,40 @@
+
+@media (max-width: 375px) {
+    .local-interests__wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+      padding: 20px 0px;
+  
+      h3 {
+        padding: 5px;
+      }
+    }
+  
+    .local-interests__cards {
+      display: grid;
+      width: 100%;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .local-interests__section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  
+      img {
+        height: auto;
+        width: 100vw;
+      }
+    }
+    .local-interest__one,
+    .local-interest__two {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+    }
+  
+    .local-interests__content {
+      padding: 10px;
+      text-align: left;
+    }
+  }

@@ -1,0 +1,73 @@
+
+//BANNER STYLES
+
+@media (max-width: 375px) {
+    .main-page__container {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+    }
+  
+    .header-banner-wrapper {
+      width: 375px;
+      overflow: hidden;
+  
+      .header-background {
+        height: 600px;
+  
+        &__title {
+          font-size: 3.6em;
+          top: 25%;
+        }
+  
+        &__image {
+          height: 100vh;
+          width: 400%;
+        }
+      }
+    }
+  
+    //MAIN CONTENT STYLES
+  
+    .experiencePage-content__wrapper {
+      .article-section {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        padding: 0px 20px 0px 20px;
+  
+        .article-section__content {
+          padding: 0px;
+  
+          h2 {
+            font-size: 2.2em;
+            padding-bottom: 15px;
+          }
+          p {
+            font-size: 0.75em;
+          }
+        }
+        .images-wrapper {
+          padding: 0px;
+          display: flex;
+          justify-content: center;
+  
+          .images-container {
+            display: flex;
+            flex-direction: column;
+          }
+  
+          .image-small__one,
+          .image-small__two {
+            height: 375px;
+            width: 375px;
+          }
+          .image-large {
+            height: 752px;
+            width: 375px;
+          }
+        }
+      }
+    }
+  }
+  

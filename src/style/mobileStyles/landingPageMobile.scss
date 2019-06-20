@@ -1,0 +1,12 @@
+//MOBILE STYLES
+@media only screen and (max-width: 375px) {
+    .header-wrapper {
+      background-image: url(../../static/assets/images/landingPage/landingPageWallpaperMobile.jpg);
+      align-items: center;
+    }
+    .header-text {
+      font-size: 4rem;
+      padding: 20px;
+    }
+    
+  }

@@ -1,0 +1,41 @@
+@media (max-width: 375px) {
+    .local-section {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+  
+    .local-section__header {
+      padding: 0px;
+      font-size: 3em;
+    }
+  
+    .locals-wrapper {
+      background-color: rgb(238, 238, 238);
+    }
+    .local-user-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .user-wrapper {
+      justify-content: center;
+  
+      flex-direction: column;
+  
+      padding: 10px;
+  
+      .user-text__wrapper {
+        width: 70vw;
+      }
+    }
+  
+    .user-text__content {
+      text-align: center;
+      padding-left: 0px;
+    }
+  
+    .user-image img {
+      padding-bottom: 5px;
+    }
+  }

@@ -1,0 +1,18 @@
+@media  (max-width: 375px) {
+  
+    .experienceCard {
+      width: 85vw;
+      text-align: center; 
+      font-size: 1em;
+    }
+  
+    .experienceCard:hover {
+      transform: none;
+      
+    }
+  
+    .horizontal-scroll{
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    } 
+  }
