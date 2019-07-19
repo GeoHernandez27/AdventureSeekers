@@ -5,28 +5,31 @@ body {
 
 
 
-
-@import "menu";
-@import "layout";
-@import "landingPage";
-@import "experiences.scss";
-@import "locals.scss";
-@import "featuredMedia.scss";
+@import '/minimizedCSS/mainPage.min.scss';
+// @import "menu";
+// @import "layout";
+// @import "landingPage";
+// @import "experiences.scss";
+// @import "locals.scss";
+// @import "featuredMedia.scss";
 
 //Experience Pages
-@import "/experiencePage/experiencePage";
-@import "/experiencePage/localSection";
-@import "/experiencePage/guideSection";
+// @import "/experiencePage/experiencePage";
+// @import "/experiencePage/localSection";
+// @import "/experiencePage/guideSection";
+
+@import '/minimizedCSS/experiencePage.min.scss';
 
 //Mobile Styles
 
-@import "/mobileStyles/menuMobile";
-@import "/mobileStyles/localsMobile";
-@import "/mobileStyles/layoutMobile";
-@import "/mobileStyles/landingPageMobile";
-@import "/mobileStyles/featuredMediaMobile";
-@import "/mobileStyles/experiencesMobile";
+@import '/minimizedCSS/mobile.min.scss';
+// @import "/mobileStyles/menuMobile";
+// @import "/mobileStyles/localsMobile";
+// @import "/mobileStyles/layoutMobile";
+// @import "/mobileStyles/landingPageMobile";
+// @import "/mobileStyles/featuredMediaMobile";
+// @import "/mobileStyles/experiencesMobile";
 
-@import "/mobileStyles/experiencePageMobile/localSectionMobile";
-@import "/mobileStyles/experiencePageMobile/guideSectionMobile";
-@import "/mobileStyles/experiencePageMobile/experiencePageMobile";
+// @import "/mobileStyles/experiencePageMobile/localSectionMobile";
+// @import "/mobileStyles/experiencePageMobile/guideSectionMobile";
+// @import "/mobileStyles/experiencePageMobile/experiencePageMobile";
